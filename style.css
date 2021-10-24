@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 980px;
+}
+h1 span{
+    color: #B7832F;
+}
+.collum{
+    color: #707070;
+}
+.collum.dark{
+    background-color: #312614;
+}
