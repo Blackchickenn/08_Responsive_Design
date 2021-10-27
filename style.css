@@ -19,6 +19,7 @@ img{
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .collum-1{
     width: 20%;
 }
@@ -43,4 +44,16 @@ h2{
     background-color: #312614;
     color: white;
     padding: 0 0.5em;
+}
+
+@media (max-width:650px) {
+    .section-top,
+    .section-bottom{
+        flex-direction: column;
+    }
+    .collum-1,
+    .collum-2,
+    .collum-3{
+        width: 100%;
+    }
 }
